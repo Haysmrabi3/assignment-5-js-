@@ -1,0 +1,160 @@
+
+/* start navbar */
+.navbar {
+    padding-block: 50px;
+}
+
+.nav-logo i {
+    color: #0BACDB;
+    font-size: 60px;
+    margin-bottom: 15px;
+    
+    }
+    
+    .nav-logo h2 {
+        font-size: 20px;
+        margin: 0px 0px 0px 15px;
+        color: white;
+    }
+    
+    .nav-logo span {
+        font-size: 10px;
+        padding: 0%;
+        margin: 0px 0px 0px 15px  ;
+        color: white;
+    }
+    
+    .active {
+        color: #0BACDB !important  ;
+        border: 2px solid #0BACDB ;
+        border-radius: 100vh 100vh ;
+    }
+    
+    .nav-link {
+        margin-inline:.700rem ;
+            color: white;
+    }
+    
+    .nav-link:hover {
+            color: #0BACDB !important  ;
+            border: 2px solid #0BACDB ;
+            border-radius: 100vh 100vh ;
+    }
+    
+    
+    .navbar {
+        background-color:#1E202B;
+        color: white ;
+        height: 150px;
+    }
+
+
+    .nav-link:focus {
+        color: #0BACDB;
+        border: 2px solid #0BACDB;
+        border-radius: 100vh 100vh;
+    }
+
+
+    .nav-link:focus {
+        color: #0BACDB   ;
+        border: 2px solid #0BACDB ;
+        border-radius: 100vh 100vh ;
+    }
+/* end navbar */
+
+
+
+
+
+/* start section  */
+
+section {
+    height: 100vh;
+}
+
+.c-form {
+    background-color: #1E202B;
+}
+
+
+.path {
+    width: 100%;
+    height: 60px;
+    background-color: #262936;
+    border-radius: 100vh  100vh;
+}
+
+
+.icons p {
+    color: white;
+}
+
+.location-map {
+    height: 200px;
+    width: 100%;
+}
+.location { 
+    background-color: #262936;
+    height: 100%;
+    border-radius: 1.5vh;
+}
+.icons i {
+    color: #0BACDB;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.location p {
+    font-size: 14px;
+    color: #B1C1BF;
+}
+
+
+.contact {
+    color: white;
+}
+
+.input1 input  , .input2 input , .input3 input , .input4 input {
+    width: 100%;
+    height: 50px;
+    border-radius: 100vh 100vh ;
+    background-color: #262936 ;
+    border:2px solid #393c48;
+    transition: 0.3s;
+}
+
+textarea {
+    border-radius: 1.5vh; 
+    background-color: #262936 ;
+    border:2px solid #393c48;
+    transition: 0.3s;
+}
+
+.input1 input:hover  , .input2 input:hover , .input3 input:hover, .input4 input:hover , textarea:hover {
+    border: 2px solid #0BACDB;
+}
+
+.input1 input:focus   , .input2 input:focus , .input3 input:focus, .input4 input:focus , textarea:focus {
+    border: 2px solid #0BACDB !important;
+}
+
+
+.input1 input:focus-visible {
+    border: 2px solid #0BACDB !important;
+}
+
+/* end section  */
+
+
+
+
+
+
+
+
+
+
+
+
+

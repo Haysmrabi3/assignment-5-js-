@@ -1,0 +1,281 @@
+
+/* start navbar  */
+.nav-logo i {
+color: #0BACDB;
+font-size: 60px;
+margin-bottom: 15px;
+
+}
+
+.nav-logo h1 {
+    font-size: 20px;
+    margin: 0px 0px 0px 15px;
+    color: white;
+}
+
+.nav-logo span {
+    font-size: 10px;
+    padding: 0%;
+    margin: 0px 0px 0px 15px  ;
+    color: white;
+}
+
+.active {
+    color: #0BACDB !important  ;
+    border: 2px solid #0BACDB ;
+    border-radius: 100vh 100vh ;
+}
+
+.nav-link {
+    margin-inline:.700rem ;
+        color: white;
+}
+
+.nav-link:hover {
+        color: #0BACDB !important  ;
+        border: 2px solid #0BACDB ;
+        border-radius: 100vh 100vh ;
+}
+
+
+.navbar {
+    background-color:#1E202B;
+    color: white ;
+    height: 150px;
+}
+
+.nav-link:focus {
+    color: #0BACDB   ;
+    border: 2px solid #0BACDB ;
+    border-radius: 100vh 100vh ;
+}
+
+/* end navbar  */
+
+
+
+/* start section  */
+
+.gb-img {
+    background-image: url('../photos/sdaadasd2.png');
+    height: 36vh;
+    z-index: 1;
+}
+
+
+.bg-color {
+    background-color: #1E202B;
+    height: 37vh;
+    z-index: 1;
+}
+
+
+
+.content {
+    position: absolute;
+    z-index: 5;
+}
+
+
+.cont {
+    position: relative;
+}
+
+
+.search {
+    margin-block: 60px ;
+    position: relative;
+}
+
+
+.search input {
+    width: 60%;
+    border-radius: 100vh;
+    border: none;
+    height: 55px;
+    padding-left: 20px;
+    background-color: #1E202B;
+}
+
+
+
+.search button {
+    position: absolute;
+    right: 20.3%;
+    top: 3px;
+    border-radius: 100vh;
+    border: none;
+    padding: 12px 40px;
+    background-color: #009AD8;
+    color: white;
+}
+
+
+/* start cards  */
+.card {
+    background-color: #323544;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+    border-radius:1.5vh 0vh 0vh  1.5vh;
+}
+
+.deg {
+    font-size: 105px;
+    font-weight: 600;
+}
+.date-info {
+background-color: #2D303D;
+border-radius: 1.5vh 0vh 0vh  0vh ;
+}
+
+.card .state span {
+    color: #009AD8;
+}
+
+.card .icons {
+display: flex;
+height: 30px;
+width: 50%;
+}
+.card .icons img {
+    height: 25px;
+    width: 25px;
+}
+
+
+.icon {
+    margin-left: 40px;
+}
+
+.day1 p , .day2 p {
+    padding-bottom: 7px;
+    margin: 0%;
+}
+.icon img {
+    width: 120px;
+    height: 120px;
+}
+
+.main-card1 {
+    color: white;
+    background-color: #262936;
+    padding: 0px  ;
+}
+
+.main-card1 .day1 {
+background-color: #222531;
+    padding-block: 1px;
+}
+
+.card1-img {
+    padding-top: 70px;
+}
+
+.main-card1 .card1  {
+    background-color: #262936;
+}
+
+.main-card1 span {
+    color: #0BACDB;
+}
+
+.card1-s {
+    padding-bottom: 70px;
+}
+
+
+.main-card2 {
+    color: white;
+    background-color: #262936;
+    padding: 0px  ;
+    border-radius:0vh 1.5vh 0vh  0vh;
+}
+
+.main-card1 .day2 {
+background-color:#2D303D;
+    padding-block: 1px;
+}
+
+.card2-img {
+    padding-top: 70px;
+}
+
+.main-card2 .card2  {
+    background-color:#323544;
+}
+
+.main-card2 span {
+    color: #0BACDB;
+}
+
+.card2-s {
+    padding-bottom: 88px;
+}
+
+
+
+
+
+
+/* end section  */
+
+
+/* start footer  */
+
+
+footer {
+    background-color: #262936;
+    padding-block: 50px;
+    color: white;
+}
+
+footer i {
+    color: #009AD8;
+    background-color: #1E202B;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+footer p {
+    padding-top: 15px;
+}
+
+
+footer input {
+        width: 70%;
+        border-radius: 100vh;
+        border: none;
+        height: 55px;
+        padding-left: 20px;
+        background-color: #1E202B;
+
+}
+.inp {
+    position: relative;
+}
+
+footer button {
+        position: absolute;
+        right: 30.5%;
+        top: 4px;
+        border-radius: 100vh;
+        border: none;
+        padding: 11px 40px;
+        background-color: #009AD8;
+        color: white;
+}
+
+
+footer .f-icons  i:hover {
+    background-color: #009AD8;
+    color: white;
+    
+}
+
+
+
+
+/* end footer  */
